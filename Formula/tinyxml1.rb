@@ -7,9 +7,10 @@ class Tinyxml1 < Formula
   revision 1
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 cellar: :any, ventura:  "dfb19813b715788d17243281a131d24882cf33f921e2998819243e9676fa9af9"
-    sha256 cellar: :any, monterey: "99460c19db8e2b1e8512362b4bf504e62f5f9449e6fa8d8b4abdefdb89ca5db3"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/tinyxml1-2.6.2_1"
+    sha256 cellar: :any, arm64_sonoma: "adccd20b464ae992a3a015b2633782740184f43850d97c1b8ee341e0f0009f4a"
+    sha256 cellar: :any, ventura:      "90195f734d26dc18536c57581a78fb729d825fd2f6b99bc99aaedb58f792b447"
+    sha256 cellar: :any, monterey:     "9a5baa5aef0e17deea838c92dd1d2f025e607bc97e0549e7795e47b80dd5075b"
   end
 
   depends_on "cmake" => :build
