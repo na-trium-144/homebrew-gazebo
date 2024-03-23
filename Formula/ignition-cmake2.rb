@@ -9,10 +9,10 @@ class IgnitionCmake2 < Formula
   head "https://github.com/gazebosim/gz-cmake.git", branch: "ign-cmake2"
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 cellar: :any_skip_relocation, ventura:  "44625e71e4193b80f9c5c6e807317b230c4d1615b29b10a904a130683d1f1eb8"
-    sha256 cellar: :any_skip_relocation, monterey: "9ab9104f67a88e53247d553cca31245ca8803d7e3997ade8a59e54c945fa238b"
-    sha256 cellar: :any_skip_relocation, big_sur:  "5624c8c1166c0afe0d978eeacd6fe17175b9d403f656cdba9c7003c8c007b3d1"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-cmake2-2.17.1_1"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "7c5df39304d54df3e547f610644b83adae8091e5ab4c0db1641c0a1b014a5f6f"
+    sha256 cellar: :any_skip_relocation, ventura:      "26c80f1a5211437271f513e41a3dcfe17c459a8004e88d10e52156f3aa15bd7d"
+    sha256 cellar: :any_skip_relocation, monterey:     "6444bf895a942991e1c5ceb66fc91c266c18f6062b7a7fe0438bef7c85fcdecb"
   end
 
   depends_on "cmake"
