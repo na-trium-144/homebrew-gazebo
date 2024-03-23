@@ -46,9 +46,9 @@ class Gazebo11 < Formula
   # depends on "gdal"
   # depends on "player"
 
-  conflicts_with "gazebo7", because: "differing version of the same formula"
-  conflicts_with "gazebo9", because: "differing version of the same formula"
-  conflicts_with "gz-tools2", because: "both install bin/gz"
+  # conflicts_with "gazebo7", because: "differing version of the same formula"
+  # conflicts_with "gazebo9", because: "differing version of the same formula"
+  # conflicts_with "gz-tools2", because: "both install bin/gz"
 
   patch do
     # Fix build with graphviz 10.0
