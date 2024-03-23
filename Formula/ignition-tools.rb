@@ -9,11 +9,10 @@ class IgnitionTools < Formula
   head "https://github.com/gazebosim/gz-tools.git", branch: "ign-tools1"
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 cellar: :any, ventura:  "5aa02b63f35605148b4d2d698bc6fb259a801e71b2d3d30ca5570f9ce9712def"
-    sha256 cellar: :any, monterey: "b71312917e1bf3be636dd7b328529cee00246681a13088a26a1da94f3cc9bd79"
-    sha256 cellar: :any, big_sur:  "9402482d4365a56f82a98e2ba77bd8dfbccbf13a046b7e8fed764914120509d4"
-    sha256 cellar: :any, catalina: "41f0d2252bf63b397066d8b82b1e48186deac5aabc57cc9a7dbb4b332fa7131f"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-tools-1.5.0_2"
+    sha256 cellar: :any, arm64_sonoma: "0487af42a434f60d7a71065bc3da10cb4da1f38fcae8c1436c88f26b124e5e64"
+    sha256 cellar: :any, ventura:      "479f859dfae003a53fbb48a6824d2a52ad31a503b7f92e1485468c967552e829"
+    sha256 cellar: :any, monterey:     "a676bc19fa722e8d068d7df80755656f2ec330059d4716d336809002ad84aa12"
   end
 
   depends_on "cmake" => :build
