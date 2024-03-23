@@ -10,11 +10,10 @@ class Ogre19 < Formula
   head "https://github.com/OGRECave/ogre.git", branch: "master"
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 cellar: :any, ventura:  "228302c760e8e34edcc209a8439e6462a9c45c4f5ce3018e523a22ab622f45ab"
-    sha256 cellar: :any, monterey: "c5fd218d8cfcacea10eabc54837570c4b2fc76024cbf8326e2a716e49096eefe"
-    sha256               big_sur:  "d9d4bc2177fda4189a1633a50766e727cfc3a13abbc64a913d08e92657b6ba49"
-    sha256               catalina: "c1e5e0bb08263e3acbf91d1350d02c8f1a9e0c8e124719bd885963b3f1b0a824"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ogre1.9-1.9-20160714-108ab0bcc69603dba32c0ffd4bbbc39051f421c9_11"
+    sha256               arm64_sonoma: "dee3a47591fd0c2820ff3f9e4a8acb76df4598bfaea84eaa89d37067825a9524"
+    sha256               ventura:      "395deb1dc10ff58c4dbccc4efa36dc6ed6c770d90f2a1bf92e6470805221aecb"
+    sha256 cellar: :any, monterey:     "4a91911272740d988787af7a65debb400f6ac47455f482524775c709724090ad"
   end
 
   option "with-cg"
