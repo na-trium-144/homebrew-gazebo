@@ -9,13 +9,10 @@ class Simbody < Formula
   head "https://github.com/simbody/simbody.git", branch: "master"
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 ventura:     "580a4b24af28f9231e699023882be6c73cec56b561c44e918502aab1cfba870c"
-    sha256 monterey:    "4550130d4b54cfdd6c6f3bef8c376c0cf4c86f4cb5a1d07332a4200766a39ba5"
-    sha256 big_sur:     "e78642e3e328773da2dca9faf741fd7b620501213046017eab1d117b890a373d"
-    sha256 catalina:    "4d758a8363a28cbc8d9700a5d66a80b0d55a3470bc6406b7ed36453fa44724a3"
-    sha256 mojave:      "2ea952e21afc83d111acacc70af126f0ae5845b270b100451f17400fad0a47df"
-    sha256 high_sierra: "5c1fa0c1f7a78a2c9dbdc505ce278a924ea6a4dde555a49051cf862a56ce64f5"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/simbody-3.7_1"
+    sha256 arm64_sonoma: "4e8cefeb7265dcf62e524f7b549adea4f04d76b669c1a61e6a114ec7d9c24b4a"
+    sha256 ventura:      "a109af7e5957aaf7595cc522f4237e8d8903ba5f1df8a7ecaf396cfc5253febf"
+    sha256 monterey:     "9ec2ad60ececed0aa95c66186ea5b8c39d3fd90cf50d072309950d976677f733"
   end
 
   depends_on "cmake" => :build
