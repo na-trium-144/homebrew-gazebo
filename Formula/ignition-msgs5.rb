@@ -9,9 +9,10 @@ class IgnitionMsgs5 < Formula
   head "https://github.com/gazebosim/gz-msgs.git", branch: "ign-msgs5"
 
   bottle do
-    root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
-    sha256 cellar: :any, ventura:  "c817041a63d7594cb551f8b238fad67b18b27d2f4534764afd351753a8aca3a9"
-    sha256 cellar: :any, monterey: "3aaa6e2dd228c36ea01bab5671bfdece52bdc430dfeec929689ea6d3372a757a"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-msgs5-5.11.0_25"
+    sha256 cellar: :any, arm64_sonoma: "b023f696fa01baddae9d5d9bbd3c234771f0934addc296db073dd7600220f812"
+    sha256 cellar: :any, ventura:      "c76f6ca897e166e8bd153e65a947a125794badf55df0c32f01d71564c3905c1f"
+    sha256 cellar: :any, monterey:     "241ac4cc7a78f9bb6959afe94711705d4ceffdda2e48f49e7f562a68ed8a1349"
   end
 
   depends_on "cmake"
