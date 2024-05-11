@@ -94,6 +94,12 @@ class Ogre19 < Formula
     sha256 "fa8dc20d5978d1ff1402a4df890a6fa0ca1fec6ec73f00154f7484820516b071"
   end
 
+  # fix ogre1.9 error
+  patch do
+    url  "https://gist.githubusercontent.com/na-trium-144/774fd616299777e8db48a3bf911e2d94/raw/89c43b52cbc926a36b4056b0dde24b9c2c5fa2b1/gistfile1.patch"
+    sha256 "7cc50b38a825ea677cdc9084809e0c5ef11bbbc9f552b6e2565fa4117a5f61ea"
+  end
+  
   def install
     cmake_args = [
       "-DCMAKE_OSX_ARCHITECTURES='x86_64'",
