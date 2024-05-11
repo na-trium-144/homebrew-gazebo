@@ -73,14 +73,14 @@ class Gazebo11 < Formula
 
   patch do
     # Fix build with boost 1.85.0
-    url "https://github.com/gazebosim/gazebo-classic/commit/6b4d0f0b94cb2d98e6a48970c1c128e9b4f13e47.patch"
-    sha256 "4df2ed407349caa821a4c26d64e88f757c46556e9754acfb755411a4a04ff50f"
+    url "https://github.com/gazebosim/gazebo-classic/commit/6b4d0f0b94cb2d98e6a48970c1c128e9b4f13e47.patch?full_index=1"
+    sha256 "4958029abe7f1a201811930d67ce3e44da1a8f72b1af17ce20985a2e2c1dc81a"
   end
 
   patch do
     # Fix build error in LogPlay.cc as well
-    url "https://github.com/gazebosim/gazebo-classic/commit/27c2277a2376f9d82755e975ae8b564d9d6ca6ed.patch"
-    sha256 "597c85ea466faeb2643e2254f057562bc106ee16b017b137f786609e29a04d69"
+    url "https://github.com/gazebosim/gazebo-classic/commit/27c2277a2376f9d82755e975ae8b564d9d6ca6ed.patch?full_index=1"
+    sha256 "b3bd411a5559ca02640826612fc3e012a6a8bf7fdd7ddcced605f17cf03ceb20"
   end
 
   def install
