@@ -71,6 +71,12 @@ class Gazebo11 < Formula
     sha256 "c4774f64c490fa03236564312bd24a8630963762e25d98d072e747f0412df18e"
   end
 
+  patch do
+    # Fix build with boost 1.85.0
+    url "https://patch-diff.githubusercontent.com/raw/gazebosim/gazebo-classic/pull/3386.diff"
+    sha256 "4df91ec58497b2e6a12d20298d409a353b5c90da901e16e6853d8ac72b240f94"
+  end
+
   def install
     cmake_args = std_cmake_args
     cmake_args << "-DQWT_WIN_INCLUDE_DIR=#{Formula["qwt-qt5"].opt_lib}/qwt.framework/Headers"
