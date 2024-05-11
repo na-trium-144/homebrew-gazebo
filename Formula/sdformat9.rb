@@ -9,10 +9,10 @@ class Sdformat9 < Formula
   head "https://github.com/gazebosim/sdformat.git", branch: "sdf9"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/sdformat9-9.10.1_2"
-    sha256 arm64_sonoma: "41d16d7e925682414bb9c45ebfc389b30fe353c2296dc2a3d99ff9431d3af3b0"
-    sha256 ventura:      "b83893f4a207442b592b40978688c9be04b28cb449b6d2b6ef00bb25eb99587e"
-    sha256 monterey:     "55a45130d54355c92b61d1c4e505b909c7f783773975809f869099d25c61787f"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/sdformat9-9.10.1_3"
+    sha256 arm64_sonoma: "1b277ab2ebc419f42cc328acbdf0dda117347d2aa03b9e314f7829271a6f627c"
+    sha256 ventura:      "8812175a6ea2479582d33b21c1818170cfdbe189f2ffc80e9c88a142a949be45"
+    sha256 monterey:     "59806de16638f5a199cf0c14900b49d633604c5971d22613373ec1cd52b12b99"
   end
 
   depends_on "cmake" => [:build, :test]
