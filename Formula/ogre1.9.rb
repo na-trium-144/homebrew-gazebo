@@ -10,10 +10,10 @@ class Ogre19 < Formula
   head "https://github.com/OGRECave/ogre.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ogre1.9-1.9-20160714-108ab0bcc69603dba32c0ffd4bbbc39051f421c9_11"
-    sha256               arm64_sonoma: "dee3a47591fd0c2820ff3f9e4a8acb76df4598bfaea84eaa89d37067825a9524"
-    sha256               ventura:      "395deb1dc10ff58c4dbccc4efa36dc6ed6c770d90f2a1bf92e6470805221aecb"
-    sha256 cellar: :any, monterey:     "4a91911272740d988787af7a65debb400f6ac47455f482524775c709724090ad"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ogre1.9-1.9-20160714-108ab0bcc69603dba32c0ffd4bbbc39051f421c9_12"
+    sha256               arm64_sonoma: "84db932256c99c6a150f8bf86797e93449f8c3db30bcd34320a0e39f77ff19f2"
+    sha256               ventura:      "66c66fc9811da8d41c66303bda153f4226d329bb4230641a156582dba7c4baac"
+    sha256 cellar: :any, monterey:     "90645136499c96371e5128cf498fb66f23d6ee14113fa14d8a88388d24b63578"
   end
 
   option "with-cg"
