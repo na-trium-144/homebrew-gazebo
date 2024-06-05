@@ -72,18 +72,6 @@ class Gazebo11 < Formula
     sha256 "c4774f64c490fa03236564312bd24a8630963762e25d98d072e747f0412df18e"
   end
 
-  patch do
-    # Fix build with boost 1.85.0
-    url "https://github.com/gazebosim/gazebo-classic/commit/6b4d0f0b94cb2d98e6a48970c1c128e9b4f13e47.patch?full_index=1"
-    sha256 "4958029abe7f1a201811930d67ce3e44da1a8f72b1af17ce20985a2e2c1dc81a"
-  end
-
-  patch do
-    # Fix build error in LogPlay.cc as well
-    url "https://github.com/gazebosim/gazebo-classic/commit/27c2277a2376f9d82755e975ae8b564d9d6ca6ed.patch?full_index=1"
-    sha256 "b3bd411a5559ca02640826612fc3e012a6a8bf7fdd7ddcced605f17cf03ceb20"
-  end
-
   def install
     cmake_args = std_cmake_args
     cmake_args << "-DQWT_WIN_INCLUDE_DIR=#{Formula["qwt-qt5"].opt_lib}/qwt.framework/Headers"
