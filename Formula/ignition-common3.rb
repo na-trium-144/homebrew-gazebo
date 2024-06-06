@@ -9,10 +9,10 @@ class IgnitionCommon3 < Formula
   head "https://github.com/gazebosim/gz-common.git", branch: "ign-common3"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-common3-3.17.0_5"
-    sha256 cellar: :any, arm64_sonoma: "8d4f85b59989b372156940044d9b3aa34d18f56cea6470caad4b0590ba3f30b3"
-    sha256 cellar: :any, ventura:      "a9b7f00a2a9f8dab4f0ea414818d88a625415eb8240ba15feca21f6df4ea7eeb"
-    sha256 cellar: :any, monterey:     "6ee43881114959c4f84351a40492106f6724aa988f6f3becb0939662ec7bd103"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-common3-3.17.0_6"
+    sha256 cellar: :any, arm64_sonoma: "eb74cc2682ea8f3be30d139021a82b36b99a665df98de32acd943607784d48c1"
+    sha256 cellar: :any, ventura:      "22338e6cd5cac896e4207ffa3663559c7b2429f8d30de7a4e03af57d2848351a"
+    sha256 cellar: :any, monterey:     "aa2b2b81824d8e8d6ccc5a3fe03197813675405c7c600841e8ab82feae1ed2ed"
   end
 
   depends_on "cmake"
