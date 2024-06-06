@@ -5,7 +5,7 @@ class Ogre19 < Formula
   version "1.9-20160714-108ab0bcc69603dba32c0ffd4bbbc39051f421c9"
   sha256 "3ca667b959905b290d782d7f0808e35d075c85db809d3239018e4e10e89b1721"
   license "MIT"
-  revision 13
+  revision 14
 
   head "https://github.com/OGRECave/ogre.git", branch: "master"
 
@@ -28,6 +28,12 @@ class Ogre19 < Formula
   depends_on "tbb"
 
   # conflicts_with "ogre", because: "differing version of the same formula"
+
+  # fix rpath error on sonoma
+  patch do
+    url "https://gist.githubusercontent.com/na-trium-144/1cedd32c9c720d66f51a1840d6ef726b/raw/cc91fdeed7c6e7ad3622d5c867da113dda5e3699/ogre1.9-rpath.patch"
+    sha256 "fe6ac20c22fba91ffb8d22b3e406dfe1910c970772847beef760d7e442303004"
+  end
 
   patch do
     url "https://gist.githubusercontent.com/marvinosswald/0e981e918aeee4403e9a0790c6f32cdd/raw/5d295499255867064ace8c4c41b2f31fd48d4576/gistfile1.txt"
