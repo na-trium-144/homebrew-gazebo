@@ -9,10 +9,10 @@ class IgnitionMath6 < Formula
   head "https://github.com/gazebosim/gz-math.git", branch: "ign-math6"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-math6-6.15.1_2"
-    sha256 cellar: :any, arm64_sonoma: "941663c9590f35da09baf43f98bcb65822d266c459bf397357aff8fde06672ce"
-    sha256 cellar: :any, ventura:      "fd6cb0c66becbbf3ded31ff1c1fdce012a343b8d237f7935607f1575b2f71092"
-    sha256 cellar: :any, monterey:     "4af27e10e4ac35cd5eb6f8e0b9485d28bc8cc57d31086d9fdc1bd4fd48bd876e"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-math6-6.15.1_3"
+    sha256 cellar: :any, arm64_sonoma: "5141d4e9474b1c81baaada8a17b18f08f47e4433aba244c3bd1c52872d4a1f2e"
+    sha256 cellar: :any, ventura:      "378d550393d518717aa90374af3cefd4145be7ac3437a186d92060da42749342"
+    sha256 cellar: :any, monterey:     "9bd941da61f5deebe0ff978c661b6341a4da31d604de5d3c7a705bc3b9f87d74"
   end
 
   depends_on "cmake" => :build
