@@ -9,10 +9,11 @@ class IgnitionTools < Formula
   head "https://github.com/gazebosim/gz-tools.git", branch: "ign-tools1"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-tools-1.5.0_3"
-    sha256 cellar: :any, arm64_sonoma: "373d5769c688e65c277681813b88fd6cf8815362d65cbc2a99bbf7aac095a170"
-    sha256 cellar: :any, ventura:      "77fccceedbf1d1cfedd14b2f53ce082891fde92b84ef36bb1d715ce89c5646c6"
-    sha256 cellar: :any, monterey:     "f983d07dcf911bbb4b42b0441f1af52b4179fd1f9e19444ba18100befe7ed337"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-tools-1.5.0_4"
+    sha256 cellar: :any,                 arm64_sonoma: "fe66b764da01b142881f91656cb4b134b7d32381bbcf33d0383824ec72cbe8e4"
+    sha256 cellar: :any,                 ventura:      "5cffebfc69db0c0cb3629fa69578fda06a764b917674bb3ab7861d07ae0836e6"
+    sha256 cellar: :any,                 monterey:     "565aed535e8747103bf4c46fb21ba50ca73c997971c8abb0385422ca6bb2b967"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e491fab8ac7050bb5232cacd9e41bc3a505831213d7e2549e8930ea42ae10ef7"
   end
 
   depends_on "cmake" => :build
