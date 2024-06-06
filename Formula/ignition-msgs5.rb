@@ -8,6 +8,13 @@ class IgnitionMsgs5 < Formula
 
   head "https://github.com/gazebosim/gz-msgs.git", branch: "ign-msgs5"
 
+  bottle do
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-msgs5-5.11.0_28"
+    sha256 cellar: :any, arm64_sonoma: "6eec1d2fde109a7dc8e6a78255d5dd458bfba87dc421f6c7ca21b8d76b225baf"
+    sha256 cellar: :any, ventura:      "94076a90c2ec89ae14219b0c8f109299799c3236a878716c79304ed071a6a07c"
+    sha256 cellar: :any, monterey:     "b497988e426bfaa7b935e36f663b41b5a6fcaef06703d81c213b116726639c2d"
+  end
+
   depends_on "cmake"
   depends_on "ignition-cmake2"
   depends_on "ignition-math6"
