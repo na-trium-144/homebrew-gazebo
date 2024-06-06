@@ -9,10 +9,10 @@ class Simbody < Formula
   head "https://github.com/simbody/simbody.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/simbody-3.7_2"
-    sha256 arm64_sonoma: "cb235a56540e869003b4f2d64a6a8a499199f3204edd733072c393a15c8cecd7"
-    sha256 ventura:      "f15d974b36d88fce703e07defcd9c60c5044518c37fc45291aa3685bd1aed413"
-    sha256 monterey:     "e3d07f2d535194ffea864689663e4b8f70d3a729a1f73fe2550914bd52cd8678"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/simbody-3.7_3"
+    sha256 arm64_sonoma: "973bbae82679e53bf5edf104797f9e62a1288c904a1e4b4eb4620bc8cbe98dde"
+    sha256 ventura:      "855261023ef138fff125dfcd8dd67d5308f5c71451b8711d2410ae45b270b583"
+    sha256 monterey:     "692655ae02651fb5e072bef9d8b09292fd94d007d5617d08e675d68c6b6ffeb2"
   end
 
   depends_on "cmake" => :build
