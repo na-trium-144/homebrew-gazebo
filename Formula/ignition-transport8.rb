@@ -8,6 +8,13 @@ class IgnitionTransport8 < Formula
 
   head "https://github.com/gazebosim/gz-transport.git", branch: "ign-transport8"
 
+  bottle do
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-transport8-8.5.0_12"
+    sha256 arm64_sonoma: "93c1c702bf623839c6de93af012aceda7ebd660a5840e55e4edc5b19cc2a03cc"
+    sha256 ventura:      "fae1cefb9eddc304d03902e6ce4dc67237d4a17f1ad89660e927eeb7ef950c9f"
+    sha256 monterey:     "163bacd9796a58611e5a6d6853c869c8d511ee099a349fefa7cf0f454bb03c60"
+  end
+
   depends_on "doxygen" => [:build, :optional]
 
   depends_on "cmake"
