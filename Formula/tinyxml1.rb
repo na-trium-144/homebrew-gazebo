@@ -7,11 +7,11 @@ class Tinyxml1 < Formula
   revision 4
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/tinyxml1-2.6.2_3"
-    sha256 cellar: :any,                 arm64_sonoma: "12c24174eb74ef85da941bed7857271eda285c4d536ef39a65a35bf9cbaa1255"
-    sha256 cellar: :any,                 ventura:      "f5b3eb4ee6c20e9d4a8240e8f6a18e0030143c93664f5763dff85885168aa848"
-    sha256 cellar: :any,                 monterey:     "d6655a8da18000b223c1fd036c45e2bdd43180a2a21b503fa8c1390fba1467e3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "d998a2ea55ca1103aefeea980fe10d4d8215218c385d81e6c66397a24f7bdcfc"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/tinyxml1-2.6.2_4"
+    sha256 cellar: :any,                 arm64_sonoma: "192bc4d730de2e63377d4bcaf673cfd890bcca551ee668c89229bbb8d63b8abc"
+    sha256 cellar: :any,                 ventura:      "ea79bb78d7525e42071f614f94fb26f2fb7a389fe5781efb0cb5f497f1b7afcd"
+    sha256 cellar: :any,                 monterey:     "7dc363ee6c5bc4b09897c32c64d34ee87c2680b90e8f2e76121145ef7122a616"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "0af9477ebda7f4b10b940faad3523db3814cf4f9889ad667df77e2cab777cf8c"
   end
 
   depends_on "cmake" => :build
