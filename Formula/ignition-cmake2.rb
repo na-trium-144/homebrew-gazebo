@@ -9,11 +9,11 @@ class IgnitionCmake2 < Formula
   head "https://github.com/gazebosim/gz-cmake.git", branch: "ign-cmake2"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-cmake2-2.17.2_3"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "52f284e77c378013b846faa769b6b8926d9dd4fc2c4c2deab630150472550bf1"
-    sha256 cellar: :any_skip_relocation, ventura:      "25cb06d49489602d7e97c993de4ac82efa789adea61c0d5542b01d4d9d135157"
-    sha256 cellar: :any_skip_relocation, monterey:     "2d17fc0740cffc1a87a04fc0ff2f2f81b0df40112cb80119c91b38e2fcae45bb"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "122d71567f3ffa69e9f1eae8465dafbd36efdc52fdda52209825a182fa639225"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/ignition-cmake2-2.17.2_4"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "384d6550eb8b0469fb9bb35e02b17768c81322f099a94145a96224aadaec5153"
+    sha256 cellar: :any_skip_relocation, ventura:      "c21550a5912fc3f5db3c473b98a67ff967be2f2e3c0c7fe9f534da2b329163f6"
+    sha256 cellar: :any_skip_relocation, monterey:     "086738a9ba867fff205e31f7b7a7ac1f8773eded39907385db9f53b7f73413dd"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "8af96287011e039247870ec60c937f31468a09d9e72f86f04cbaad41fd77b9a8"
   end
 
   depends_on "cmake"
