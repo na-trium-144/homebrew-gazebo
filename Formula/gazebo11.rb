@@ -9,10 +9,10 @@ class Gazebo11 < Formula
   head "https://github.com/osrf/gazebo.git", branch: "gazebo11"
 
   bottle do
-    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/gazebo11-11.14.0_22"
-    sha256 arm64_sonoma: "6d2ce8c5c183f73dd367e6395b8caea5c398f14e2171a9bde001e3a177ba61ac"
-    sha256 ventura:      "7410f2fa40c566ab1f44d8536d19b15925197eeb3f2c75e191bd0fbf04763577"
-    sha256 monterey:     "2118adcb73a39b3785f50d4bc95168771a87cce3d6af78d95ba85b817efbc872"
+    root_url "https://github.com/na-trium-144/homebrew-gazebo/releases/download/gazebo11-11.14.0_23"
+    sha256 arm64_sonoma: "d4d4bc09629ab6580b696b291421f8acb1bf503a876c43b4711e7684e6d12771"
+    sha256 ventura:      "595c99969f2d174af7e110e9a71b34024555629243b0e14d14d65aa9825134a0"
+    sha256 monterey:     "cd6cd24e7b6e760b013601066c9270881464f0ff34ac6b36e5c1076c27d0d9f4"
   end
 
   depends_on "cmake" => :build
